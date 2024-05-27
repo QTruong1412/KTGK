@@ -2,7 +2,7 @@ import { StyleSheet, View, Text, Image} from 'react-native';
 import {Button, HelperText, TextInput} from 'react-native-paper';
 import React, {useEffect} from 'react';
 import '@react-native-firebase/app';
-import {login, useMyContextController} from '../store/Index';
+import { login, useMyContextController } from '../firebase';
 
 function Login({navigation}) {
   const [error, setError] = React.useState('');
