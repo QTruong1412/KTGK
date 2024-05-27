@@ -3,7 +3,7 @@ import { StyleSheet, View, Image} from 'react-native';
 import {Button, Text, TextInput, HelperText} from 'react-native-paper';
 import React from 'react';
 import '@react-native-firebase/app';
-import { signup } from '../store/Index';
+import { signup } from '../firebase';
 
 function Register({navigation}) {
   const [email, setEmail] = React.useState('');
