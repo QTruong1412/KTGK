@@ -1,9 +1,9 @@
 import React, {useEffect, useLayoutEffect} from 'react';
 import {View, FlatList} from 'react-native';
 import {TextInput, Button, List} from 'react-native-paper';
-import {addJob, logout, useMyContextController} from '../store/Index';
 import firestore from '@react-native-firebase/firestore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { addJob, logout, useMyContextController } from '../firebase';
 
 export default function Home({navigation}) {
   const [newJob, setNewJob] = React.useState('');
