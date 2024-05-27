@@ -3,7 +3,7 @@ import React from 'react';
 import {View} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import MyStack from './routers/MyStack';
-import { MyContextControllerProvider } from './store/Index';
+import { MyContextControllerProvider } from './firebase';
 
 const App = () => {
   return (
